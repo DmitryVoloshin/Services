@@ -42,3 +42,69 @@
 .counter{
     padding: 0 20px;
 }
+
+
+/* <!--Feedback slider block--> */
+.feedblack-slider_wrap{
+    padding-left: 100px;
+    display: flex;
+}
+.slider-list_wrap{
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    color: #000;
+    text-align: center
+}
+.slider-list_item{
+    width: 205px;
+    height: 220px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end
+
+}
+.slider-list_item:nth-child(1){
+    margin-left: 0px;
+}
+
+.list-item_block{
+    display: flex;
+    margin-bottom: 9px;
+}
+.list-number{
+    width: 43px;
+    height: 31px;
+    background-color: white;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-name{
+    width: 138px;
+    height: 31px;
+    background: #fff;
+    margin-left: 9px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-list_item:nth-child(1){
+    background: url('./../../img/mdoels/Model-1.jpg') no-repeat center #000;
+    background-size: cover;
+}
+.slider-list_item:nth-child(2){
+    background: url('./../../img/mdoels/Model-2.jpg') no-repeat center #000;
+    background-size: cover;
+}
+.slider-list_item:nth-child(3){
+    background: url('./../../img/mdoels/Model-3.jpg') no-repeat center #000;
+    background-size: cover;
+}
