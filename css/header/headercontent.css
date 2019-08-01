@@ -1,0 +1,77 @@
+.header-info_container{
+    width: 540px;
+    height: 195px;
+    border-top: 1px solid rgba(255, 255, 255, 0.603);
+    border-left: 1px solid rgba(255, 255, 255, 0.603);
+    border-right: 1px solid rgba(255, 255, 255, 0.603);
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center
+}
+/* ITS SO BAD PRACTIC DONT USE IT
+.header-info_container::after{
+    content: "";
+    position: absolute;
+    top:46.2%;
+    transform: translateY(-50%);
+    height: 0.5px;
+    width: 150px;
+    background:rgba(255, 255, 255, 0.603);
+}
+.header-info_container::before{
+    content: "";
+    position: absolute;
+    top: 46.2%;
+    transform: translateX(260%);
+    height: 0.5px;
+    width: 150px;
+    background:rgba(255, 255, 255, 0.603);
+} */
+.header-content_title{
+    color: #fff;
+    padding-top: 47px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    line-height: 38px;
+}
+.header-content_text{
+    color: #fff;
+    padding: 0px 100px 0px 100px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.header-info_button{
+    height: 38px;
+    width: 111px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: -15px;
+    text-align: center;
+    transition-duration: 500ms;
+    transition-property: border;
+}
+.header-info_button:hover{
+    border: 2px solid #097e89
+}
+.header-button_link{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 10px;
+    transition-duration: 500ms;
+    transition-property: color;
+}
+.header-button_link:hover{
+    color: #097e89;
+}
+
+.left{
+    width: 100px;
+    border-bottom: 2px solid black;
+    bottom: 0;
+    right: 0;
+}
