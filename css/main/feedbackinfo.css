@@ -1,0 +1,44 @@
+.feedback-info_block {
+    height: 285px;
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+}
+
+.feedback-about_block {
+    padding: 70px 60px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-text_line {
+    width: 100px;
+    border-bottom: 1px solid white
+}
+
+.feedback-about_text {
+    width: 220px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.feedback-buttons_block {
+    padding-top: 35px;
+
+}
+
+.feedback-buttons {
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    border: 0px solid #a7a0a0;
+    border-radius: 3px;
+}
+.counter{
+    padding: 0 20px;
+}
