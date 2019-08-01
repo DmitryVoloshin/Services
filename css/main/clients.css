@@ -1,4 +1,4 @@
-.clients-head_wrap{
+.clients-head_wrap {
     height: 138px;
     width: 100%;
     background-color: #ffffff;
@@ -10,42 +10,115 @@
     flex-direction: row;
     justify-content: center
 }
-.clients-main_title{
+
+.clients-main_title {
     padding: 0px 35px
 }
-.clients-line_left{
-    height: 40%;
-    width: 225px;
-    border-bottom: 2px solid #656464
-}
-.clients-line_left2{
-    height: 39%;
-    width: 75px;
-    border-bottom: 4px solid #656464
-}
-.clients-line_right{
+
+.clients-line_left {
     height: 40%;
     width: 225px;
     border-bottom: 2px solid #656464
 }
 
-.clients-line_right2{
+.clients-line_left2 {
     height: 39%;
     width: 75px;
     border-bottom: 4px solid #656464
 }
-.br-client_line{
-    width: 100%;
+
+.clients-line_right {
+    height: 40%;
+    width: 225px;
+    border-bottom: 2px solid #656464
+}
+
+.clients-line_right2 {
+    height: 39%;
+    width: 75px;
+    border-bottom: 4px solid #656464
+}
+
+.br-client_line {
     height: 15px;
     background-color: #fbfbfb;
 }
 
-/* Logo block */
-.clients-logo_block{
+.br-after_client {
+    height: 96px;
+    background-color: #fbfbfb;
+}
+
+/* Logo block  */
+/* first logo block */
+.clients-logo_block {
     height: 300px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 25px;
+}
+
+.clients-logo_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+    list-style: none
+}
+
+.first-logo_list {
+    height: 150px;
+    width: 24.5%;
+    margin-left: 1%
+}
+
+.first-logo_list:nth-child(1) {
+    background: url('./../../img/clients/2000px-Adobe_Systems_Logo.png') no-repeat center;
+    background-size: contain;
+    margin-left: 0px;
+}
+
+.first-logo_list:nth-child(2) {
+    background: url('./../../img/clients/guideline_based1.png') no-repeat center;
+    background-size: contain;
+}
+
+.first-logo_list:nth-child(3) {
+    background: url('./../../img/clients/infosys-logo.png') no-repeat center;
+    background-size: contain;
+}
+
+.first-logo_list:nth-child(4) {
+    background: url('./../../img/clients/invision.png') no-repeat center;
+    background-size: contain;
+}
+
+/* second logo block */
+
+
+.second-logo_list {
+    height: 80px;
+    width: 20%;
+    margin-left: 1%
+}
+
+.second-logo_list:nth-child(1) {
+    background: url('./../../img/clients/cisco-logo.png') no-repeat center;
+    background-size: contain;
+    margin-left: 0px;
+}
+
+.second-logo_list:nth-child(2) {
+    background: url('./../../img/clients/behance-2.png') no-repeat center;
+    background-size: contain;
+}
+
+.second-logo_list:nth-child(3) {
+    background: url('./../../img/clients/Canva-Logo.png') no-repeat center;
+    background-size: contain;
+}
+
+.second-logo_list:nth-child(4) {
+    background: url('./../../img/clients/insta.png') no-repeat center;
+    background-size: contain;
 }
