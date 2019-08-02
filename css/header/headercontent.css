@@ -1,3 +1,29 @@
+.header-content_wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+}
+.arrow-button{
+    width: 28px;
+    height: 32px;
+    cursor: pointer;
+    border: 0.5px solid rgba(255, 255, 255, 0.623);
+    transition-duration: 500ms;
+    transition-property: border
+}
+.arrow-button:hover{
+    border: 1px solid #097e89;
+}
+.content-arrow_left{
+    margin-left: 45px;
+    background: url('../../arrow.png') no-repeat center;
+}
+.content-arrow_right{
+    margin-right: 45px;
+    background: url('../../arrow1.png') no-repeat center;
+}
+
 .header-info_container{
     width: 540px;
     height: 195px;
@@ -10,6 +36,7 @@
     flex-direction: column;
     text-align: center
 }
+
 /* ITS SO BAD PRACTIC DONT USE IT
 .header-info_container::after{
     content: "";
@@ -43,20 +70,25 @@
     line-height: 18px;
 }
 .header-info_button{
+    display: flex;
+    justify-content: center;
     height: 38px;
     width: 111px;
     border: 2px solid #fff;
-    margin: 0 auto;
+    color: white;
+    margin:0 auto;
     cursor: pointer;
-    margin-top: -15px;
+    margin-top: -25px;
     text-align: center;
     transition-duration: 500ms;
-    transition-property: border;
+    transition-property: border,color;
+    background-color: #ffffff00
 }
 .header-info_button:hover{
-    border: 2px solid #097e89
+    border: 2px solid #097e89;
+    color: #097e89
 }
-.header-button_link{
+/* .header-button_link{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -64,14 +96,82 @@
     padding: 10px 10px;
     transition-duration: 500ms;
     transition-property: color;
-}
-.header-button_link:hover{
+} */
+/* .header-button_link:hover{
     color: #097e89;
-}
+} */
 
 .left{
-    width: 100px;
-    border-bottom: 2px solid black;
-    bottom: 0;
-    right: 0;
+    width: 175px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+    padding-top: 44px;
+}
+.right{
+    width: 175px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+    padding-top: 44px;
+}
+.bottom-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center
+}
+/* TIME TO BAD PRACTIC */
+.hidden-block{
+    border: none;
+    height: 38px;
+    width: 111px;
+    margin: 0 auto;
+}
+
+@media(max-width:768px){
+     .arrow-button{
+         margin: 0;
+         padding: 0 5px
+     }
+     .header-info_container{
+        width: 440px;
+     }
+     .left{
+         width: 135px;
+         padding-top: 49px
+     }
+     .right{
+         width: 135px;
+         padding-top: 49px
+     }
+     .header-content_text{
+         font-size: 10px;
+         line-height: 10px;
+     }
+}
+@media(max-width:550px){
+
+    .header-info_container{
+        width: 340px;
+        height: 245px;
+     }
+     .right, .left{
+         padding-top: 52px;
+         width: 85px;
+     }
+}
+@media(max-width:468px){
+    .header-info_container{
+        width: 240px;
+        height: 245px;
+     }
+     .header-content_title{
+        padding-top: 47px;
+        padding-bottom: 30px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .header-content_text{
+        color: #fff;
+        padding: 0 50px;
+        font-size: 10px;
+        line-height: 12px;
+    }
 }
