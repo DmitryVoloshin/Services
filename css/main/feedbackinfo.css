@@ -1,4 +1,5 @@
 .feedback-info_block {
+    padding: 0 10px;
     height: 285px;
     background-color: #3d3d3d;
     display: flex;
@@ -66,7 +67,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end
-
 }
 .slider-list_item:nth-child(1){
     margin-left: 0px;
@@ -107,4 +107,92 @@
 .slider-list_item:nth-child(3){
     background: url('./../../img/mdoels/Model-3.jpg') no-repeat center #000;
     background-size: cover;
+}
+
+@media(max-width:1280px){
+    .feedback-about_block{
+        padding: 45px 35px;
+    }
+    .feedblack-slider_wrap{
+        padding-left: 55px;
+    }
+}
+@media(max-width:1024px){
+    .feedback-about_block{
+        padding: 35px 25px;
+    }
+    .feedblack-slider_wrap{
+        padding-left: 35px;
+    }
+    .slider-list_item{
+        width: 155px;
+        height: 170px;
+        margin-left: 15px;
+    }
+    .list-number{
+        width: 29px;
+        margin-left: 9px;
+    }
+    .list-name{
+        width: 98px;
+        margin-left: 9px;
+        margin-right: 7px;
+    }
+}
+@media(max-width:968px){
+    .feedback-about_block{
+        padding: 25px 12px;
+    }
+    .feedblack-slider_wrap{
+        padding-left: 5px;
+    }
+}
+@media(max-width:768px){
+    .feedback-info_block{
+        flex-direction: column;
+        height: 475px;
+        justify-content: center;
+        align-items: center;
+    }
+    .feedback-about_block{
+        padding: 25px 12px;
+        width: 77%;
+    }
+}
+@media(max-width:550px){
+    .slider-list_item{
+        width: 125px;
+        height: 140px;
+        margin-left: 7px;
+    }
+    .list-number{
+        width: 25px;
+        height: 27px;;
+        margin-left: 9px;
+    }
+    .list-name{
+        width: 78px;
+        height: 27px;;
+        margin-left: 9px;
+        margin-right: 7px;
+    }
+}
+@media(max-width:440px){
+    .slider-list_item{
+        width: 85px;
+        height: 100px;
+        margin-left: 5px;
+        font-size: 9px;
+    }
+    .list-number{
+        width: 25px;
+        height: 20px;;
+        margin-left: 9px;
+    }
+    .list-name{
+        width: 48px;
+        height: 20px;
+        margin-left: 9px;
+        margin-right: 7px;
+    }
 }
