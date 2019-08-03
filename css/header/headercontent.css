@@ -153,8 +153,12 @@
         height: 245px;
      }
      .right, .left{
-         padding-top: 52px;
+         padding-top: 86px;
          width: 85px;
+     }
+     .header-content_title{
+         font-size: 35px;
+         line-height: 42px;
      }
 }
 @media(max-width:468px){

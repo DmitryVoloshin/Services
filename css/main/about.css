@@ -21,8 +21,7 @@
    text-transform: uppercase;
    border-bottom: 1px solid black;
 } 
-.about-text_block{
-}
+
 .about-info_text{
     padding-top: 23px;
     font-size: 11px;
@@ -34,4 +33,25 @@
     border-radius: 5px;
     background-color: rgb(5, 160, 175);
     border: 0px
+}
+@media(max-width:768px){
+    .about-right_title{
+        font-size: 20px;
+    }
+    .about-info_text{
+        font-size: 10px;
+    }
+}
+@media(max-width:550px){
+    .about-block_right{
+        padding: 42px 36px 78px 34px;
+    }
+    .about-right_title{
+        font-size: 18px;
+    }
+}
+@media(max-width:468px){
+    .about-block_right{
+        padding: 42px 16px 78px 14px;
+    }
 }
