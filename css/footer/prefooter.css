@@ -19,13 +19,11 @@
 .pre-footer_title{
   font-size: 30px;
 }
-
-
 .pre-footer_message{
-    padding-top: 40px;
-    padding-left: 25%;
+    padding: 40px 10px 0px 20%;
 }
 input[type="text"]{
+    padding-right: 5px;
     padding-left: 20px;
     color: #ffffff
 }
@@ -37,9 +35,9 @@ input::-moz-placeholder { color: white;}
     height: 45px;
     background-color: #097e89;
     border: 1px solid white;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     color: #ffffff;
-    margin-left: -15px
+    margin-left: -4px
 }
 .form__button{
    width: 99px;
@@ -50,4 +48,58 @@ input::-moz-placeholder { color: white;}
    color: #097e89;
    border: 1px solid #fff;
    cursor: pointer;
+}
+
+@media(max-width:1280px){
+ .pre-footer_message{
+     padding-left: 12%;
+ }
+}
+@media(max-width:1080px){
+    .pre-footer_title{
+        font-size: 20px;
+    }
+    .pre-footer_message{
+        padding-left: 6%
+    }
+    .pre-footer_about{
+        width: 29%;
+        padding-left: 20px;
+    }
+}
+@media(max-width:896px){
+    .pre-footer-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pre-footer_wrap{
+        flex-direction: column;
+        height: 225px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pre-footer_about{
+        width: 70%;
+        text-align: center;
+    }
+    .form__input{
+        width: 180px;
+    }
+}
+@media(max-width:550px){
+    .form__input{
+        width: 120px;
+    }
+}
+@media(max-width:425px){
+    .form__input{
+        width: 95px;
+    }
+}
+@media(max-width:360px){
+    .form__input{
+        width: 75px;
+        font-size: 10px;
+    }
 }
