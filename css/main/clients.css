@@ -1,6 +1,7 @@
 .clients-head_wrap {
     height: 138px;
-    width: 100%;
+    width: 98%;
+    padding: 0 1%;
     background-color: #ffffff;
     color: #656464;
     text-transform: uppercase;
@@ -8,42 +9,29 @@
     padding-top: 53px;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+    text-align: center;
 }
 
 .clients-main_title {
-    padding: 0px 35px
+    padding: 0px 10px
 }
 
-.clients-line_left {
+.clients-line_left,.clients-line_right {
     height: 40%;
     width: 225px;
     border-bottom: 2px solid #656464
 }
 
-.clients-line_left2 {
+.clients-line_left2,.clients-line_right2 {
     height: 39%;
     width: 75px;
     border-bottom: 4px solid #656464
 }
-
-.clients-line_right {
-    height: 40%;
-    width: 225px;
-    border-bottom: 2px solid #656464
-}
-
-.clients-line_right2 {
-    height: 39%;
-    width: 75px;
-    border-bottom: 4px solid #656464
-}
-
 .br-client_line {
     height: 15px;
     background-color: #fbfbfb;
 }
-
 .br-after_client {
     height: 96px;
     background-color: #fbfbfb;
@@ -122,4 +110,48 @@
 .second-logo_list:nth-child(4) {
     background: url('./../../img/clients/insta.png') no-repeat center;
     background-size: contain;
+}
+
+
+
+
+@media(max-width:1160px){
+    .clients-main_title {
+        font-size: 48px;
+    }
+    .clients-line_left,.clients-line_right {
+        height: 35%;
+        width: 135px;
+    }
+    .clients-line_left2,.clients-line_right2 {
+        height: 34%;
+        width: 55px;
+    }
+}
+@media(max-width:968px){
+    .clients-line_left,.clients-line_right {
+        width: 75px;
+    }
+    .clients-line_left2,.clients-line_right2 {
+        width: 25px;
+    }
+}
+@media(max-width:678px){
+    .clients-main_title{
+        font-size: 38px;
+    }
+    .clients-line_left,.clients-line_right {
+        height: 30%;
+        width: 45px;
+    }
+    .clients-line_left2,.clients-line_right2 {
+        height: 29%;
+        width: 15px;
+    }
+}
+@media(max-width:460px){
+     .clients-main_title{
+         padding-top: 18px;
+         width: 230px;
+     }
 }

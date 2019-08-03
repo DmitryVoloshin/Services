@@ -1,7 +1,6 @@
 .services-about_wrap{
     text-align: center;
     background-color: #373737;
-    
 }
 .services-about_head{
     height: 138px;
@@ -62,4 +61,10 @@
         width: 15px;
         height: 29%;
     }
+}
+@media(max-width:460px){
+   .services-main_title{
+       padding: 0px;
+       width: 230px;
+   }
 }
